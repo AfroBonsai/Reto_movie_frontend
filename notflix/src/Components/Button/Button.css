@@ -1,0 +1,14 @@
+.designButton {
+    height: 1.5em;
+    width: 5em;
+    margin: 1em;
+    background-color: red;
+    border-radius: 0.2em;
+    transition: 0.4s;
+}
+
+.designButton:hover{
+    transition: 0.4s;
+    background-color: lime;
+    cursor: pointer;
+}

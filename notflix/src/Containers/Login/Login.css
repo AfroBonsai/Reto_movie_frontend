@@ -1,0 +1,62 @@
+.designLogin{
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+}
+
+.sendButton{
+    height: 2em;
+    width: 6em;
+
+    background-color: green;
+    color: white;
+
+    border-radius: 0.2em;
+}
+
+
+
+/*
+.divs {
+    
+    height: 100em;
+    background-color: red;
+
+
+}
+
+
+.designLogin {
+    height: 29.3em;
+    color: greenyellow;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.botonesLogin {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+    width: 18em;
+}
+
+.sendButton {
+    background-color: lightskyblue;
+    height: 2em;
+    width: 5em;
+
+    border-radius: 0.2em;
+    transition: 0.4s;
+    margin: 2em;
+    cursor: pointer;
+}
+
+.sendButton:hover {
+    background-color: aqua;
+    transition: 0.4s;
+} */
