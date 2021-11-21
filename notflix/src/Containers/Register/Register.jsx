@@ -1,8 +1,7 @@
-
+import '../../Scss/Styles.scss';
 import React, { useState, useEffect } from 'react';
 import {useNavigate} from 'react-router-dom';
 import axios from 'axios';
-import './Register.css';
 
 const Register = () => {
 
@@ -92,7 +91,7 @@ const Register = () => {
 
     //Renderizado
     return (
-        <div className="designRegister">
+        <div className="designMain">
             <pre>{JSON.stringify(user, null, 2)}</pre>
             <input type='text' name='name' title='name' onChange={userHandler} lenght='30' placeholder='Name' />
             <input type='text' name='surname' title='surname' onChange={userHandler} lenght='30' placeholder='Surname' />

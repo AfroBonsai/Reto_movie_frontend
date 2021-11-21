@@ -1,4 +1,4 @@
-import './Profile.css';
+import '../../Scss/Styles.scss'
 import React, {useState, useEffect} from 'react';
 import { connect } from 'react-redux';
 import { LOGOUT } from '../../redux/types';
@@ -28,7 +28,7 @@ const Profile = (props) => {
 
     } else {
         return (
-            <div className="designProfile">
+            <div className="designMain">
                 NADIE SABE NADA DE NINGÚN USUARIO---
             </div>
         )

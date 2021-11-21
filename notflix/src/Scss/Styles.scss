@@ -1,0 +1,76 @@
+.designHeader {
+    height: 10vh;
+    background-color: black;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    };
+
+
+.designFooter {
+    height: 10vh;
+    background-color: black;
+     
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: flex-end;
+};
+
+
+
+.designMain {
+    background-color: lightgray;
+    height: 80vh;
+
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+}
+
+@font-face {
+    font-family: 'Netflix Sans';
+    src: url(https://assets.nflxext.com/ffe/siteui/fonts/netflix-sans/v3/NetflixSans_W_Th.woff2) format('woff2'),url(https://assets.nflxext.com/ffe/siteui/fonts/netflix-sans/v3/NetflixSans_W_Th.woff) format('woff');
+}
+
+
+.designLogo {
+    font-family: 'Netflix Sans';
+    color: rgb(211, 15, 25);
+    font-size: 6vh;
+    font-weight: 900;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 3vw;
+    cursor: pointer;
+        // src: url(https://assets.nflxext.com/ffe/siteui/fonts/netflix-sans/v3/NetflixSans_W_Th.woff2) format('woff2'),url(https://assets.nflxext.com/ffe/siteui/fonts/netflix-sans/v3/NetflixSans_W_Th.woff) format('woff')
+}
+
+.Buttons {
+    font-family: 'Netflix Sans';
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+
+.designButton {
+    height: 1.5em;
+    width: 5em;
+    margin-bottom: 1em;
+    color: rgb(220, 15, 25);
+    font-size: 2vh;
+    border-radius: 0.2em;
+    transition: 0.4s;
+    font-weight: 600;
+}
+
+.designButton:hover {
+    transition: 0.4s;
+    background-color: rgb(53, 52, 52);
+    cursor: pointer;
+}
+

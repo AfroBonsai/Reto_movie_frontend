@@ -2,9 +2,10 @@
     height: 1.5em;
     width: 5em;
     margin: 1em;
-    background-color: red;
+    background-color: rgb(229, 9, 20);
     border-radius: 0.2em;
     transition: 0.4s;
+    font-weight: bold;
 }
 
 .designButton:hover{

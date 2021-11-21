@@ -1,4 +1,4 @@
-import './Login.css';
+import '../../Scss/Styles.scss';
 import React, { useState, useEffect } from "react";
 import axios from 'axios';
 import { useNavigate } from 'react-router-dom';
@@ -55,7 +55,7 @@ const Login = (props) => {
 
     return (
 
-        <div className="designLogin">
+        <div className="designMain">
 
 
             <div className="botonesLogin">
