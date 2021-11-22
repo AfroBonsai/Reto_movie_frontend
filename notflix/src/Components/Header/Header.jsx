@@ -10,6 +10,7 @@ const Header = () => {
             <div className="designLogo">Notflix</div>
             <div className="Buttons">
                 <Button route="Home" url="/" />
+                <Button route="Movies" url="/movies" />
                 <Button route="Login" url="/login" />
                 <Button route="Register" url="/register" />
                 <Button route="Profile" url="/profile" />
