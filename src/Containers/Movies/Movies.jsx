@@ -30,6 +30,7 @@ const Movies = () => {
 
     if (movies[1]?.title !== '') {
         return (
+            <div className="Moviess">
             <div className="designMovies">
                 {movies.map((movie) => {
                     return (
@@ -42,6 +43,7 @@ const Movies = () => {
                         </div>
                     )
                 })}
+            </div>
             </div>
         )
     } else (

@@ -1,4 +1,5 @@
-import '../../Scss/Styles.scss'
+// import '../../Scss/Styles.scss'
+import './Profile.css'
 import React, {useState, useEffect} from 'react';
 import { connect } from 'react-redux';
 import { LOGOUT } from '../../redux/types';

@@ -30,20 +30,13 @@
     /* align-items: center; */
 }
 
-.designMovies {
-    background-color: lightgray;
-    height: 80vh;
 
-    display:flex;
-    flex-direction: column;
-    justify-content: center;
-    /* align-items: center; */
-}
 
 @font-face {
     font-family: 'Netflix Sans';
     src: url(https://assets.nflxext.com/ffe/siteui/fonts/netflix-sans/v3/NetflixSans_W_Th.woff2) format('woff2'),url(https://assets.nflxext.com/ffe/siteui/fonts/netflix-sans/v3/NetflixSans_W_Th.woff) format('woff');
 }
+
 
 
 .designLogo {
@@ -94,32 +87,48 @@
     justify-content: center;
 }
 
+// .designMovies {
+//     background-color: lightgray;
+//     height: 80vh;
+
+//     display:flex;
+//     flex-direction: column;
+//     justify-content: center;
+//     /* align-items: center; */
+// }
+.Moviess {
+    display: flex;
+}
 
 .designMovies {
     display: grid;
-    gap: 1em;
-    // justify-content: center;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2em;
+    height: 185vh;
     background-color: rgb(53, 52, 52);
     grid-template-columns: 15em 15em 15em 15em 15em 15em;
-    grid-template-rows: 15em 15em 15em 15em 15em 15em;
-    // gap: 1em;
+    grid-template-rows: 25em 25em 25em 25em 25em 25em;
+    
 }
 
 .movie {
     display: flex;
     flex-direction: column;
-    border-radius : 0.2em;
-    border: 0.2em solid rgb(211, 15, 25);
+    border-radius : 0.6em;
+    border: 0.3em solid rgb(211, 15, 25);
     margin-left: 2vh;
     margin-top: 2vh;
     width: 11vw;
     height: 38vh;
     align-items: center;
     justify-content: space-evenly;
-    background-color: gray;
+    background-color: #acb0bd;
+    box-shadow: 6px 9px black;
 }
 
 .thumbnail {
     height: 15em;
     border: 0.1em solid white;
+    box-shadow: 4px 5px rgb(110, 6, 10);
 }

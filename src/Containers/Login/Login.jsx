@@ -1,4 +1,5 @@
-import '../../Scss/Styles.scss';
+// import '../../Scss/Styles.scss';
+import './Login.css';
 import React, { useState, useEffect } from "react";
 import axios from 'axios';
 import { useNavigate } from 'react-router-dom';
@@ -16,8 +17,8 @@ const Login = (props) => {
     const [credentials, setCredentials] = useState({ email: '', password: '' });
 
 
-    //Handler o manejador
-    const manejadorInputs = (e) => {
+    //Handler
+    const inputHandler = (e) => {
         setCredentials({ ...credentials, [e.target.name]: e.target.value });
     }
 
@@ -39,14 +40,14 @@ const Login = (props) => {
             // console.log(res.data);
 
             // Save data in REDUX
-            let datos = res.data;
+            let dat = res.data;
 
-            props.dispatch({ type: LOGIN, payload: datos });
+            props.dispatch({ type: LOGIN, payload: dat });
 
+            setTimeout(() => {
+                navigate("/profile");
+            }, 1000);
 
-            // setTimeout(() => {
-            //     navigate("/profile");
-            // }, 2000);
         } catch (error) {
             setmsgError("LogIn error.");
 
@@ -60,8 +61,8 @@ const Login = (props) => {
 
             <div className="botonesLogin">
                 {/* {<pre>{JSON.stringify(credentials, null, 2)}</pre>} */}
-                <input type='email' name='email' title='email' onChange={manejadorInputs} lenght='30' />
-                <input type='password' name='password' title='password' onChange={manejadorInputs} lenght='30' />
+                <input type='email' name='email' title='email' onChange={inputHandler} lenght='30' />
+                <input type='password' name='password' title='password' onChange={inputHandler} lenght='30' />
                 <div className="sendButton" onClick={() => logMe()}>Login</div>
                 <div className="error">{msgError}</div>
             </div>

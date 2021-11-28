@@ -1,4 +1,15 @@
 .designProfile {
-    background-color: gray;
-    height: 29.3em;
+    background-color: lightgray;
+    height: 80vh;
+
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.user {
+
+    border: 1em;
+
 }
