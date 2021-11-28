@@ -87,15 +87,6 @@
     justify-content: center;
 }
 
-// .designMovies {
-//     background-color: lightgray;
-//     height: 80vh;
-
-//     display:flex;
-//     flex-direction: column;
-//     justify-content: center;
-//     /* align-items: center; */
-// }
 .Moviess {
     display: flex;
 }
@@ -105,7 +96,8 @@
     flex-direction: column;
     justify-content: center;
     gap: 2em;
-    height: 185vh;
+    height: 183vh;
+    width: 100%;
     background-color: rgb(53, 52, 52);
     grid-template-columns: 15em 15em 15em 15em 15em 15em;
     grid-template-rows: 25em 25em 25em 25em 25em 25em;
