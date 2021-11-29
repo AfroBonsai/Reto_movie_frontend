@@ -10,7 +10,7 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        height: 60vh;
+        height: 70vh;
         width: 25vw;
         background-color: rgb(110, 6, 10);
         border-radius : 0.6em;
@@ -72,7 +72,7 @@
 .textLogin{
     font-weight: 650;
     color: white;
-    margin-bottom: 0.2em;
+    margin-bottom: 0.2em
 }
 
 .profileButtons {

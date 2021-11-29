@@ -21,10 +21,14 @@ const Profile = (props) => {
                     <div className="userDesign">{props.credentials?.user?.name}</div>
                     <div className="textLogin">Surname:</div>
                     <div className="userDesign">{props.credentials?.user?.surname}</div>
-                    <div className="textLogin">City:</div>
-                    <div className="userDesign">{props.credentials?.user?.city}</div>
                     <div className="textLogin">Email:</div>
                     <div className="userDesign">{props.credentials?.user?.email}</div>
+                    <div className="textLogin">ID:</div>
+                    <div className="userDesign">{props.credentials?.user?.dni}</div>
+                    <div className="textLogin">City:</div>
+                    <div className="userDesign">{props.credentials?.user?.city}</div>
+                    <div className="textLogin">Postal code:</div>
+                    <div className="userDesign">{props.credentials?.user?.cp}</div>
                     <div className="textLogin">Phone:</div>
                     <div className="userDesign">{props.credentials?.user?.phone}</div>
                     <div className="textLogin">Address:</div>
