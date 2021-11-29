@@ -19,15 +19,19 @@ function App() {
 
         <Header />
 
-        <Routes>
+        <div>
+          
+          <Routes>
 
-          <Route path="/" element={<Home />} />
-          <Route path="/movies" element={<Movies />} />
-          <Route path="/login" element={<Login />} />
-          <Route path="/register" element={<Register />} />
-          <Route path="/profile" element={<Profile />} />
+            <Route path="/" element={<Home />} />
+            <Route path="/movies" element={<Movies />} />
+            <Route path="/login" element={<Login />} />
+            <Route path="/register" element={<Register />} />
+            <Route path="/profile" element={<Profile />} />
 
-        </Routes>
+          </Routes>
+
+        </div>
 
         <Footer />
 
